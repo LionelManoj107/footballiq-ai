@@ -5,6 +5,7 @@ I built FootballIQ AI as my submission for the Idea2Impact 2026 Hackathon, under
 
 🔗 **Live Demo:** https://footballiq-ai.onrender.com
 🎥 **Demo Video:** https://drive.google.com/file/d/1rUOD_XOmk0rOkEcs4DGaxesWkUZvn8lN/view?usp=sharing
+   explanation video : https://drive.google.com/file/d/1UL_ple8KI8ddtTIu5Cn52-uw-iVofIBn/view?usp=sharing
 
 ---
 
