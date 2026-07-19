@@ -3,8 +3,8 @@
 I built FootballIQ AI as my submission for the Idea2Impact 2026 Hackathon, under the
 **Sustainability & Social Impact** theme (Skill Development domain).
 
-🔗 **Live Demo:** [add your Render URL here]
-🎥 **Demo Video:** [add your YouTube/Drive link here]
+🔗 **Live Demo:** https://footballiq-ai.onrender.com
+🎥 **Demo Video:** https://drive.google.com/file/d/1rUOD_XOmk0rOkEcs4DGaxesWkUZvn8lN/view?usp=sharing
 
 ---
 
