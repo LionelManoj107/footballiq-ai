@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FootballIQ AI</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⚽ FootballIQ AI</h1>
+    <p>AI skill assessment for grassroots football players</p>
+  </header>
+
+  <main>
+    <section id="setup-card" class="card">
+      <h2>1. Player</h2>
+      <input id="player-name" type="text" placeholder="Your name" />
+      <input id="player-age" type="number" placeholder="Age" />
+      <input id="player-city" type="text" placeholder="City" />
+      <button id="create-player-btn">Save Player</button>
+      <p id="player-status" class="status"></p>
+    </section>
+
+    <section id="upload-card" class="card">
+      <h2>2. Upload a Drill Video</h2>
+      <select id="drill-type">
+        <option value="dribbling">Dribbling</option>
+        <option value="passing">Passing</option>
+        <option value="shooting">Shooting</option>
+        <option value="first_touch">First Touch</option>
+      </select>
+      <input id="video-input" type="file" accept="video/*" />
+      <button id="upload-btn">Analyze Drill</button>
+      <p id="upload-status" class="status"></p>
+    </section>
+
+    <section id="results-card" class="card hidden">
+      <h2>3. Skill Scores</h2>
+      <div id="scores"></div>
+      <h3>Feedback</h3>
+      <ul id="feedback"></ul>
+    </section>
+
+    <section id="plan-card" class="card hidden">
+      <h2>4. This Week's Training Plan</h2>
+      <div id="plan"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
